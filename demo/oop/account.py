@@ -21,7 +21,8 @@ a1.deposit(10000)
 a1.deposit(20000)
 a1.withdraw(5000)
 print(a1.getbalance())
-print(a1.__balance)
+print(a1.__dict__)
+print(a1._Account__balance)
 
 
 a2 = Account(10, "Mark", 50000)
