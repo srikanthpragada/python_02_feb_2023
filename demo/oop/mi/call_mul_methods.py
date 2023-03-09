@@ -1,6 +1,6 @@
 class A:
     def process(self):
-        # print(type(self))
+        #print(type(self))
         print("Process in A")
 
 
