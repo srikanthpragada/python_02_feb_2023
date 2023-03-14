@@ -1,0 +1,5 @@
+IT,Joe,40000
+IT,Steve,45000
+SA,Mark,35000
+HR,Jack,30000
+SA,Scott,50000
