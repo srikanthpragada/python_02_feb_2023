@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 
-WEBSITE = "https://www.w3schools.com"
+WEBSITE = "https://www.khanacademy.org"
 resp = requests.get(WEBSITE)
 bs = BeautifulSoup(resp.text, "html.parser")
 count = 0
