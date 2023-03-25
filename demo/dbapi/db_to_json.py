@@ -6,7 +6,7 @@ import dbutil
 
 
 # Convert tuple with emp details to dict
-def emp_to_dict(emp):
+def emp_to_dict(emp) -> dict:
     return {"id": emp[0], "name": emp[1], "job": emp[2], "salary": emp[3]}
 
 

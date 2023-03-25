@@ -9,7 +9,7 @@ updated = notfound = error = 0
 for line in f.readlines():
     parts = line.strip().split(",")
     if len(parts) != 2:
-        continue          # Ignore line
+        continue          # Invalid data, so ignore line
 
     try:
         id, salary = parts
